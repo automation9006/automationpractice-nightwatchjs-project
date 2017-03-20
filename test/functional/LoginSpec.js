@@ -3,7 +3,8 @@ var config = require('../../nightwatch.conf.js');
 module.exports = { // adapted from: https://git.io/vodU0
   'Verify success login': function(browser) {
     browser
-      .url('http://automationpractice.com/index.php')
+      .init()
+      .maximizeWindow()
       .waitForElementVisible('body')
       .click('.login')
       .setValue('#email','tester100@test.com')

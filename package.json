@@ -1,0 +1,30 @@
+{
+  "name": "automationpractice-nightwatchjs-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "global-tunnel": "^1.2.0",
+    "nightwatch": "^0.9.13",
+    "phantomjs-prebuilt": "^2.1.14",
+    "selenium-server": "^2.53.0"
+  },
+  "devDependencies": {
+    "nightwatch": "^0.9.13",
+    "phantomjs-prebuilt": "^2.1.14",
+    "selenium-server": "^2.53.0"
+  },
+  "scripts": {
+    "postinstall": "node nightwatch.conf.js",
+    "test": "./node_modules/.bin/nightwatch --env local",
+    "ie": "./node_modules/.bin/nightwatch -e ie11",
+    "sauce": "./node_modules/.bin/nightwatch -e chrome,ie11,android_s4_emulator,iphone_6_simulator",
+    "upload": "node test/e2e/upload_screenshots_to_s3.js",
+    "e2e": "npm run sauce; npm run upload",
+    "dev": "./node_modules/.bin/nodemon -w test/index.html --delay 250ms --exec 'npm run upload'"
+  },
+  "author": "vamshi ponnam",
+  "license": "ISC"
+}
+
+
