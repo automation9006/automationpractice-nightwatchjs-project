@@ -1,74 +1,91 @@
-19:59:11.395 INFO - Launching a standalone Selenium Server
-19:59:11.450 INFO - Java: Oracle Corporation 25.121-b13
-19:59:11.450 INFO - OS: Linux 4.4.0-66-generic amd64
-19:59:11.465 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
-19:59:11.574 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
-registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform LINUX
-19:59:11.574 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
-registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform LINUX
-19:59:11.575 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-19:59:11.575 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-19:59:11.577 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
-registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform LINUX
-19:59:11.578 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
-19:59:11.579 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
-19:59:11.683 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
-19:59:11.683 INFO - Selenium Server is up and running
-19:59:12.137 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Functional / Login, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[Mozilla/5.0 (iPhone; CPU iPhone OS 5_0 like Mac OS X) AppleWebKit/534.46
-            (KHTML, like Gecko) Version/5.1 Mobile/9A334 Safari/7534.48.3, --window-size=640,1136]}, platform=ANY}]])
-19:59:12.137 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Functional / Homepage, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[Mozilla/5.0 (iPhone; CPU iPhone OS 5_0 like Mac OS X) AppleWebKit/534.46
-            (KHTML, like Gecko) Version/5.1 Mobile/9A334 Safari/7534.48.3, --window-size=640,1136]}, platform=ANY}]])
-19:59:12.151 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Functional / Homepage, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[Mozilla/5.0 (iPhone; CPU iPhone OS 5_0 like Mac OS X) AppleWebKit/534.46
-            (KHTML, like Gecko) Version/5.1 Mobile/9A334 Safari/7534.48.3, --window-size=640,1136]}, platform=ANY}]
-19:59:12.152 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Functional / Login, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[Mozilla/5.0 (iPhone; CPU iPhone OS 5_0 like Mac OS X) AppleWebKit/534.46
-            (KHTML, like Gecko) Version/5.1 Mobile/9A334 Safari/7534.48.3, --window-size=640,1136]}, platform=ANY}]
-Starting ChromeDriver 2.28.455506 (18f6627e265f442aeec9b6661a49fe819aeeea1f) on port 17470
-Only local connections are allowed.
-Starting ChromeDriver 2.28.455506 (18f6627e265f442aeec9b6661a49fe819aeeea1f) on port 9402
-Only local connections are allowed.
-19:59:13.285 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Functional / Homepage, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[Mozilla/5.0 (iPhone; CPU iPhone OS 5_0 like Mac OS X) AppleWebKit/534.46
-            (KHTML, like Gecko) Version/5.1 Mobile/9A334 Safari/7534.48.3, --window-size=640,1136]}, platform=ANY}]]
-19:59:13.295 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Functional / Login, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[Mozilla/5.0 (iPhone; CPU iPhone OS 5_0 like Mac OS X) AppleWebKit/534.46
-            (KHTML, like Gecko) Version/5.1 Mobile/9A334 Safari/7534.48.3, --window-size=640,1136]}, platform=ANY}]]
-19:59:13.319 INFO - Executing: [get: http://automationpractice.com/index.php])
-19:59:13.325 INFO - Executing: [get: http://automationpractice.com/index.php])
-19:59:17.241 INFO - Done: [get: http://automationpractice.com/index.php]
-19:59:17.251 INFO - Executing: [find elements: By.cssSelector: body])
-19:59:17.316 INFO - Done: [find elements: By.cssSelector: body]
-19:59:17.324 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on LINUX (ea3cd142c43b0fce855aa17232959647)] -> css selector: body]])
-19:59:17.369 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on LINUX (ea3cd142c43b0fce855aa17232959647)] -> css selector: body]]
-19:59:17.378 INFO - Executing: [get title])
-19:59:17.385 INFO - Done: [get title]
-19:59:17.391 INFO - Done: [get: http://automationpractice.com/index.php]
-19:59:17.391 INFO - Executing: [delete session: 83fa352e-8cf5-444e-bd4f-d377312030f8])
-19:59:17.401 INFO - Executing: [find elements: By.cssSelector: body])
-19:59:17.467 INFO - Done: [delete session: 83fa352e-8cf5-444e-bd4f-d377312030f8]
-19:59:17.482 INFO - Done: [find elements: By.cssSelector: body]
-19:59:17.487 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on LINUX (05788f601da04809837605a736c08373)] -> css selector: body]])
-19:59:17.536 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on LINUX (05788f601da04809837605a736c08373)] -> css selector: body]]
-19:59:17.544 INFO - Executing: [find element: By.cssSelector: .login])
-19:59:17.592 INFO - Done: [find element: By.cssSelector: .login]
-19:59:17.597 INFO - Executing: [click: 1 [[ChromeDriver: chrome on LINUX (05788f601da04809837605a736c08373)] -> css selector: .login]])
-19:59:19.802 INFO - Done: [click: 1 [[ChromeDriver: chrome on LINUX (05788f601da04809837605a736c08373)] -> css selector: .login]]
-19:59:19.808 INFO - Executing: [find element: By.cssSelector: #email])
-19:59:19.852 INFO - Done: [find element: By.cssSelector: #email]
-19:59:19.872 INFO - Executing: [send keys: 2 [[ChromeDriver: chrome on LINUX (05788f601da04809837605a736c08373)] -> css selector: #email], [t, e, s, t, e, r, 1, 0, 0, @, t, e, s, t, ., c, o, m]])
-19:59:20.006 INFO - Done: [send keys: 2 [[ChromeDriver: chrome on LINUX (05788f601da04809837605a736c08373)] -> css selector: #email], [t, e, s, t, e, r, 1, 0, 0, @, t, e, s, t, ., c, o, m]]
-19:59:20.012 INFO - Executing: [find element: By.cssSelector: #passwd])
-19:59:20.079 INFO - Done: [find element: By.cssSelector: #passwd]
-19:59:20.086 INFO - Executing: [send keys: 3 [[ChromeDriver: chrome on LINUX (05788f601da04809837605a736c08373)] -> css selector: #passwd], [t, e, s, t, 1, 2, 3]])
-19:59:20.247 INFO - Done: [send keys: 3 [[ChromeDriver: chrome on LINUX (05788f601da04809837605a736c08373)] -> css selector: #passwd], [t, e, s, t, 1, 2, 3]]
-19:59:20.254 INFO - Executing: [find element: By.cssSelector: #SubmitLogin])
-19:59:20.312 INFO - Done: [find element: By.cssSelector: #SubmitLogin]
-19:59:20.316 INFO - Executing: [click: 4 [[ChromeDriver: chrome on LINUX (05788f601da04809837605a736c08373)] -> css selector: #SubmitLogin]])
-19:59:20.409 INFO - Done: [click: 4 [[ChromeDriver: chrome on LINUX (05788f601da04809837605a736c08373)] -> css selector: #SubmitLogin]]
-19:59:20.421 INFO - Executing: [find elements: By.cssSelector: body])
-19:59:21.635 INFO - Done: [find elements: By.cssSelector: body]
-19:59:21.642 INFO - Executing: [is displayed: 5 [[ChromeDriver: chrome on LINUX (05788f601da04809837605a736c08373)] -> css selector: body]])
-19:59:21.689 INFO - Done: [is displayed: 5 [[ChromeDriver: chrome on LINUX (05788f601da04809837605a736c08373)] -> css selector: body]]
-19:59:21.697 INFO - Executing: [find element: By.cssSelector: .logout])
-19:59:21.746 INFO - Done: [find element: By.cssSelector: .logout]
-19:59:21.753 INFO - Executing: [click: 6 [[ChromeDriver: chrome on LINUX (05788f601da04809837605a736c08373)] -> css selector: .logout]])
-19:59:23.449 INFO - Done: [click: 6 [[ChromeDriver: chrome on LINUX (05788f601da04809837605a736c08373)] -> css selector: .logout]]
-19:59:23.454 INFO - Executing: [delete session: adb17b7d-ffcb-426c-b135-22aeb4a84d8a])
-19:59:23.531 INFO - Done: [delete session: adb17b7d-ffcb-426c-b135-22aeb4a84d8a]
+16:46:09.070 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
+16:46:09.070 INFO - Launching a standalone Selenium Server
+2017-07-26 16:46:09.098:INFO::main: Logging initialized @325ms to org.seleniumhq.jetty9.util.log.StdErrLog
+16:46:09.156 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+ registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+16:46:09.156 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+ registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+16:46:09.156 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+16:46:09.156 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+Unable to create new instances on this machine.
+16:46:09.156 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+16:46:09.156 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+2017-07-26 16:46:09.204:INFO:osjs.Server:main: jetty-9.4.3.v20170317
+2017-07-26 16:46:09.251:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@14acaea5{/,null,AVAILABLE}
+2017-07-26 16:46:09.296:INFO:osjs.AbstractConnector:main: Started ServerConnector@e25b2fe{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2017-07-26 16:46:09.297:INFO:osjs.Server:main: Started @523ms
+16:46:09.297 INFO - Selenium Server is up and running
+16:46:09.609 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+16:46:09.639 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Functional /  Home Page Spec, browserName=firefox, javascriptEnabled=true, platform=ANY}]])
+16:46:09.670 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, marionette=true, name=Functional /  Home Page Spec, browserName=firefox, javascriptEnabled=true, platform=ANY}]
+16:46:09.715 WARN - Exception thrown
+java.util.concurrent.ExecutionException: org.openqa.selenium.WebDriverException: java.lang.reflect.InvocationTargetException
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'Vamshis-MacBook-Pro.local', ip: 'fe80:0:0:0:18f1:8b68:2e83:9543%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.4', java.version: '1.8.0_141'
+Driver info: driver.version: unknown
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192)
+	at org.openqa.selenium.remote.server.DefaultSession.execute(DefaultSession.java:183)
+	at org.openqa.selenium.remote.server.DefaultSession.<init>(DefaultSession.java:119)
+	at org.openqa.selenium.remote.server.DefaultSession.createSession(DefaultSession.java:95)
+	at org.openqa.selenium.remote.server.DefaultDriverSessions.newSession(DefaultDriverSessions.java:131)
+	at org.openqa.selenium.remote.server.handler.NewSession.handle(NewSession.java:59)
+	at org.openqa.selenium.remote.server.handler.NewSession.handle(NewSession.java:36)
+	at org.openqa.selenium.remote.server.rest.ResultConfig.handle(ResultConfig.java:111)
+	at org.openqa.selenium.remote.server.JsonHttpCommandHandler.handleRequest(JsonHttpCommandHandler.java:190)
+	at org.openqa.selenium.remote.server.DriverServlet.handleRequest(DriverServlet.java:222)
+	at org.openqa.selenium.remote.server.DriverServlet.doPost(DriverServlet.java:184)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.openqa.selenium.remote.server.DriverServlet.service(DriverServlet.java:150)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:841)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:543)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1228)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:481)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1130)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.Server.handle(Server.java:564)
+	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:320)
+	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)
+	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:112)
+	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:672)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:590)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.WebDriverException: java.lang.reflect.InvocationTargetException
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'Vamshis-MacBook-Pro.local', ip: 'fe80:0:0:0:18f1:8b68:2e83:9543%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.4', java.version: '1.8.0_141'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.remote.server.FirefoxDriverProvider.callConstructor(FirefoxDriverProvider.java:89)
+	at org.openqa.selenium.remote.server.FirefoxDriverProvider.newInstance(FirefoxDriverProvider.java:63)
+	at org.openqa.selenium.remote.server.DefaultDriverFactory.newInstance(DefaultDriverFactory.java:60)
+	at org.openqa.selenium.remote.server.DefaultSession$BrowserCreator.call(DefaultSession.java:222)
+	at org.openqa.selenium.remote.server.DefaultSession$BrowserCreator.call(DefaultSession.java:209)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	... 1 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.server.FirefoxDriverProvider.callConstructor(FirefoxDriverProvider.java:81)
+	... 9 more
+Caused by: java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:738)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:124)
+	at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:41)
+	at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:115)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:330)
+	at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:207)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:108)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:137)
+	... 14 more
+16:46:09.721 WARN - Exception: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases
